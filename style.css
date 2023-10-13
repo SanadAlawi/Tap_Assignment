@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Poppins', sans-serif; */
 }
 
 :root {
@@ -13,6 +12,11 @@
     --white--color: #fff;
 
     --primary--padding: 5em
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 
@@ -43,7 +47,7 @@ nav .link-list li a {
     text-decoration: none;
     transition: 0.5s;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 nav .link-list li a.active{
@@ -73,7 +77,6 @@ main>section {
 }
 
 main .content {
-    /* display: flex; */
     flex-direction: column;
     align-items: flex-start;
     gap: 2em;
@@ -83,9 +86,16 @@ main .content {
     color: var(--primary--color--light);
 }
 
+.desc{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
 .title {
     color: var(--primary--color);
     font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
 }
 
 .actions {
